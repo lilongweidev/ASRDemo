@@ -65,13 +65,13 @@ public class MainActivity extends AppCompatActivity implements EventListener {
         startBtn.setOnClickListener(new View.OnClickListener() {//开始
             @Override
             public void onClick(View v) {
-                asr.send(SpeechConstant.ASR_START, null, null, 0, 0);
+                asr.send(SpeechConstant.ASR_START, "{}", null, 0, 0);
             }
         });
         stopBtn.setOnClickListener(new View.OnClickListener() {//停止
             @Override
             public void onClick(View v) {
-                asr.send(SpeechConstant.ASR_STOP, null, null, 0, 0);
+                asr.send(SpeechConstant.ASR_STOP, "{}", null, 0, 0);
             }
         });
     }
