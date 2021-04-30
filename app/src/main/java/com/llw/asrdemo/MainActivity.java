@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements EventListener {
     }
 
 
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
