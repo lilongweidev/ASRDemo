@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements EventListener {
 
     private EventManager asr;//语音识别核心库
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
